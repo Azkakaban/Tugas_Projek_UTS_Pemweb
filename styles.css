@@ -1,0 +1,140 @@
+.body{
+    background-color: rgba(155, 154, 160, 0.897);
+}
+
+.body1{
+    background-color: black;
+}
+
+hr{
+    border:  1px solid;
+    height: 0px;
+    color: black;
+}
+
+.data{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    margin-bottom: 40px;
+    border: 1px solid red;
+    
+}
+
+.data-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    display: inline-block;
+    width: 120px;
+    margin: 10px;
+}
+
+.data img{
+    width: 120px;
+    height: auto;
+}
+
+.perkenalan{
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+    border: 1px solid red;
+}
+
+.perkenalan p span{
+    margin-left: 15px;
+}
+
+.tabel table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.tabel table th, .tabel table td {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tabel h2{
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.basic{
+    background-color: red;
+}
+
+.ielts{
+    background-color: blue;
+}
+
+.pw{
+    background-color: yellow;
+}
+
+.etika{
+    background-color: brown;
+}
+
+.wd{
+    background-color: green;
+}
+
+.kcb{
+    background-color: rebeccapurple;
+}
+
+.basis{
+    background-color: orange;
+}
+
+.sd{
+    background-color: #13c2e0;
+}
+
+.tombol, .tombol1{
+    display: flex;
+    justify-content: right;
+    width: 15vw;
+    height: 10vh;
+}
+
+.tombol button{
+    background-color: gray;
+    display: flex;
+    justify-content: start;
+    border-radius: 30%;
+    width: 40%;
+    height: 50%;
+}
+
+.tombol1 button{
+    justify-content: right;
+    background-color: gray;
+    display: flex;
+    border-radius: 30%;
+    width: 40%;
+    height: 50%;
+}
+
+.bulat{
+    display: inline-block;
+    width: 50%;
+    height: 80%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+th, td{
+    color: white;
+}
